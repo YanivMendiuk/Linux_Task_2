@@ -81,7 +81,7 @@ esac
 read -p "This is a check if virtual host is configured.
 Please inert your domain name:
 " domain_name
-if [ -e "/etc/nginx/sites-available/$domain_name" ];
+if [[ -e "/etc/nginx/sites-available/$domain_name" ]];
 then
 echo "Your domain name is already configured as a virtual host"
 else
