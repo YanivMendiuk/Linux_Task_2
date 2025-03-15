@@ -106,7 +106,7 @@ sudo sed "s/{{DOMAIN_NAME}}/$domain_name/g" templates/nginx_site.tmpl | sudo tee
 sudo ln -s /etc/nginx/sites-available/$domain_name /etc/nginx/sites-enabled/$domain_name
 
 echo "Configuring /var/www/ for $domain_name."
-sudo mkdir /var/www/$domain_name
+sudo mkdir -p /var/www/$domain_name
 sudo touch /var/www/$domain_name/index.html
 echo "<h1> Welcome to $domain_name</h1>" | sudo tee /var/www/$domain_name/index.html
 
