@@ -1,0 +1,21 @@
+server {
+    listen 80;
+    server_name {{DOMAIN_NAME}};
+
+    root /var/www/{{DOMAIN_NAME}};
+    index index.html index.htm;
+
+    location / {
+        try_files $uri $uri/ =404;
+    }
+
+    location ~ ^/~(.+?)(/.*)?$ {
+        alias /home/$1/public_html$2;
+    }
+
+    location /secure {
+        auth_basic "Restricted Area";
+        auth_basic_user_file /etc/nginx/.htpasswd;
+    }
+}
+
