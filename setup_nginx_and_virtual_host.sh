@@ -17,7 +17,6 @@
 
 set -o errexit
 set -o pipefail
-set -x
 # -----------------------------------------------------
 if [[ $EUID -eq 0 ]];
 then
