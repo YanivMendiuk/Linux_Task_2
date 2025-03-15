@@ -31,8 +31,6 @@ This directory will include the nginx site template file configuration. This wil
 git clone https://github.com/YanivMendiuk/Linux_Task_2.git
 ```
 
-For RHEL OS users, this script uses dnf package manager for installing requeired services. Ensure that you running on RHEL8 or above or install dnf prior for running this script.
-
 ### Run the Setup script
 
 ```bash
@@ -41,5 +39,6 @@ For RHEL OS users, this script uses dnf package manager for installing requeired
 
 ### Requiremnets
 
-- A Debian-based / RHEL Linux distribution.  
-- root user / `sudo` privileges.
+- Root user / `sudo` privileges.
+- A Debian-based / RHEL Linux distribution.
+- For RHEL OS users, ensure that you running on RHEL8 or above or install dnf prior for running this script.
