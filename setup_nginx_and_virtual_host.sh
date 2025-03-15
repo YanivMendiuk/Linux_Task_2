@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 # -----------------------------------------------------
-# Script Name:    install_non_apt_packages.sh
+# Script Name:    setup_nginx_and_virtual_host
 # Version:        1.1.0
 # Author:         Yaniv Mendiuk
-# Date:           2025-03-08
+# Date:           2025-03-15
 # Description:
 # This script automates the installation of Nginx and the setup of a new virtual host on both
 # Debian-based and RHEL-based systems. It performs the following tasks:
