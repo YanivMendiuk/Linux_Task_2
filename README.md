@@ -21,7 +21,7 @@ Debian-based and RHEL-based systems. It performs the following tasks:
 
 ### 2. `templates/nginx_site.tmpl`
 
-This directory will include the nginx site template file configuration. This will be used in the `setup_nginx_and_virtual_host.sh` in section 5 in the instructions above.
+This directory will include the nginx site template file configuration. This will be used in the `setup_nginx_and_virtual_host.sh` in section 5 in the tasks above.
 
 ## Installation & Usage
 
